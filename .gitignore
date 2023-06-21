@@ -1,0 +1,44 @@
+# Visual Studio / C# specific
+## Ignore Visual Studio temporary files, build results, and user-specific files
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio IntelliSense
+*.vscode/
+*.vs/
+
+# NuGet packages
+*.nuget/
+*.nupkg/
+*.snupkg
+/packages/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Resharper (if you use Resharper in your project)
+_ReSharper.*/
+
+# Visual Studio Code
+.vscode/

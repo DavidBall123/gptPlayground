@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePuzzles", "ConsolePuzzles\ConsolePuzzles.csproj", "{C78C54E1-C4CC-4A31-AFA2-5E3C7567247E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuzzleTests", "PuzzleLests\PuzzleTests.csproj", "{6C860752-BD86-4331-B575-A4EA84D9FBD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C78C54E1-C4CC-4A31-AFA2-5E3C7567247E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78C54E1-C4CC-4A31-AFA2-5E3C7567247E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78C54E1-C4CC-4A31-AFA2-5E3C7567247E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78C54E1-C4CC-4A31-AFA2-5E3C7567247E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C860752-BD86-4331-B575-A4EA84D9FBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C860752-BD86-4331-B575-A4EA84D9FBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C860752-BD86-4331-B575-A4EA84D9FBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C860752-BD86-4331-B575-A4EA84D9FBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C526DF33-2DAF-4909-9865-953E5AC31277}
+	EndGlobalSection
+EndGlobal
