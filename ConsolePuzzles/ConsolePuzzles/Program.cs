@@ -4,6 +4,8 @@
 
 //palindrome.Start();
 
-var primeNumber = new PrimeNumber();
-primeNumber.Start();
+//var primeNumber = new PrimeNumber();
+//primeNumber.Start();
 
+var wordCounter = new WordCounter();
+wordCounter.Start();
