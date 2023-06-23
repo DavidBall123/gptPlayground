@@ -34,3 +34,5 @@ else
 
 
 
+var wordCounter = new WordCounter();
+wordCounter.Start();
