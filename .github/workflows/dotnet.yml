@@ -22,11 +22,6 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore dependencies
       run: |
-        ls
-        ls ..
-        ls ConsolePuzzles
-
-
-      # run: ls dotnet restore ../ConsolePuzzles/ConsolePuzzles.sln
-    # - name: Build
-    #   run: dotnet build --no-restore ../ConsolePuzzles/ConsolePuzzles.sln
+        dotnet restore ConsolePuzzles/ConsolePuzzles.sln
+    - name: Build
+      run: dotnet build --no-restore ConsolePuzzles/ConsolePuzzles.sln
