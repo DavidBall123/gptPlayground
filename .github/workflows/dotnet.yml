@@ -24,6 +24,7 @@ jobs:
       run: |
         ls
         ls ..
+        ls ConsolePuzzles
 
 
       # run: ls dotnet restore ../ConsolePuzzles/ConsolePuzzles.sln
