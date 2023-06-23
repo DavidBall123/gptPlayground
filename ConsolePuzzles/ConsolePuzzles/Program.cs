@@ -1,9 +1,36 @@
-﻿using ConsolePuzzles.Puzzles;
+﻿using ConsolePuzzles.Interfaces;
+using ConsolePuzzles.Puzzles;
 
-//var palindrome = new Palindrome();
+var puzzles = new Dictionary<string, IConsolePuzzle>
+{
+    {"1. Palindrome", new Palindrome()},
+    {"2. Prime Number", new PrimeNumber()}
+};
 
-//palindrome.Start();
+Console.WriteLine("Please select a puzzle to run:");
 
-var primeNumber = new PrimeNumber();
-primeNumber.Start();
+foreach (var puzzle in puzzles)
+{
+    Console.WriteLine(puzzle.Key);
+}
+
+var input = Console.ReadLine();
+
+if (int.TryParse(input, out var selection))
+{
+    if (puzzles.TryGetValue(input, out var selectedPuzzle))
+    {
+        selectedPuzzle.Start();
+    }
+    else
+    {
+        Console.WriteLine("Please select a valid puzzle.");
+    }
+}
+else
+{
+    Console.WriteLine("Invalid input. Please enter a number.");
+}
+
+
 
