@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuzzleTests", "PuzzleLests\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gptTest", "gptTest\gptTest.csproj", "{7184E4F0-7E26-4838-8284-A172AF7431D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareTest", "MiddlewareTest\MiddlewareTest.csproj", "{A4FD95C0-63D9-4908-AE57-41AB82BE00D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7184E4F0-7E26-4838-8284-A172AF7431D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7184E4F0-7E26-4838-8284-A172AF7431D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7184E4F0-7E26-4838-8284-A172AF7431D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4FD95C0-63D9-4908-AE57-41AB82BE00D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FD95C0-63D9-4908-AE57-41AB82BE00D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FD95C0-63D9-4908-AE57-41AB82BE00D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FD95C0-63D9-4908-AE57-41AB82BE00D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
