@@ -14,7 +14,8 @@ namespace gptTest.ContextFactory
                 .Build();
 
             var optionsBuilder = new DbContextOptionsBuilder<RepositoryContext>()
-                .UseSqlServer(configuration.GetConnectionString("sqlConnection"));
+                .UseSqlServer(configuration.GetConnectionString("sqlConnection"),
+                    b => b.MigrationsAssembly("gptTest"));
 
             return new RepositoryContext(optionsBuilder.Options);
         }
