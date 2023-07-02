@@ -11,7 +11,7 @@ namespace Repository.Configuration
             builder.HasData(
                new Company
                {
-                    Id = new Guid("c9d4c053-49b6-4f3f-9a8c-8f6d5aeece6f"),
+                    Id = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870"),
                     Name = "IT_Solutions Ltd",
                     Address = "583 Wall Dr. Gwynn Oak, MD 21207",
                     Country = "USA"
