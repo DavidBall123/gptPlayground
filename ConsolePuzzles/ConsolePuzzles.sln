@@ -7,13 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolePuzzles", "ConsolePu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PuzzleTests", "PuzzleLests\PuzzleTests.csproj", "{6C860752-BD86-4331-B575-A4EA84D9FBD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gptTest", "gptTest\gptTest.csproj", "{7184E4F0-7E26-4838-8284-A172AF7431D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gptTest", "gptTest\gptTest.csproj", "{7184E4F0-7E26-4838-8284-A172AF7431D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareTest", "MiddlewareTest\MiddlewareTest.csproj", "{A4FD95C0-63D9-4908-AE57-41AB82BE00D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddlewareTest", "MiddlewareTest\MiddlewareTest.csproj", "{A4FD95C0-63D9-4908-AE57-41AB82BE00D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{74AFA8A5-72A9-4EBE-A0B8-AEC28E55BB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{74AFA8A5-72A9-4EBE-A0B8-AEC28E55BB26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{F9293FBD-F19A-46EB-8139-E9BCDE49C7DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{F9293FBD-F19A-46EB-8139-E9BCDE49C7DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{2F74A131-DCC8-46E9-B876-C870AC384266}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{A3F4D686-85B1-4A42-94A2-995232E78FFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Contracts", "Service.Contracts\Service.Contracts.csproj", "{9D065DD1-3B83-4D89-955A-9FBC6A0B220E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{03497112-FDB0-4BC0-9910-050AC9652FAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{F9293FBD-F19A-46EB-8139-E9BCDE49C7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9293FBD-F19A-46EB-8139-E9BCDE49C7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9293FBD-F19A-46EB-8139-E9BCDE49C7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F74A131-DCC8-46E9-B876-C870AC384266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F74A131-DCC8-46E9-B876-C870AC384266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F74A131-DCC8-46E9-B876-C870AC384266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F74A131-DCC8-46E9-B876-C870AC384266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F4D686-85B1-4A42-94A2-995232E78FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F4D686-85B1-4A42-94A2-995232E78FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F4D686-85B1-4A42-94A2-995232E78FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F4D686-85B1-4A42-94A2-995232E78FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D065DD1-3B83-4D89-955A-9FBC6A0B220E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D065DD1-3B83-4D89-955A-9FBC6A0B220E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D065DD1-3B83-4D89-955A-9FBC6A0B220E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D065DD1-3B83-4D89-955A-9FBC6A0B220E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03497112-FDB0-4BC0-9910-050AC9652FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03497112-FDB0-4BC0-9910-050AC9652FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03497112-FDB0-4BC0-9910-050AC9652FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03497112-FDB0-4BC0-9910-050AC9652FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
