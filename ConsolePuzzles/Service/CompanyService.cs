@@ -22,7 +22,10 @@ namespace Service
                 var companies = _repository.Company.GetAllCompanies(trackChanges);
 
                 var companiesDto = companies.Select(c =>
-                    new CompanyDto(c.Id, c.Name ?? "", string.Join(c.Address, c.Country))).ToList();
+                    new CompanyDto(
+                        c.Id, 
+                        c.Name ?? "", 
+                        string.Join(' ',c.Address, c.Country))).ToList();
 
                 return companiesDto;
             }
